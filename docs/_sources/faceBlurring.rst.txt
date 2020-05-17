@@ -1,0 +1,7 @@
+faceBlurring module
+===================
+
+.. automodule:: faceBlurring
+   :members:
+   :undoc-members:
+   :show-inheritance:
