@@ -110,7 +110,6 @@ def main(logger, resultsDict):
 
     return
 
-
 if __name__ == '__main__':
 
     # Let us add an argument parser here
