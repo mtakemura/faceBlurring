@@ -1,5 +1,4 @@
 {
-    "inputs"  : {},
-    "outputs" : {},
-    "params"  : {}
+    "input"  : {../data/raw_data/children-817368_1920.jpg},
+    "output" : {../results/test.jpg}
 }

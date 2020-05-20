@@ -1,4 +1,5 @@
 from lib.argParsers import config as cf
+from lib.argParsers import module1 as m1
 
 from logs import logDecorator as lD
 import jsonref, copy
@@ -30,6 +31,8 @@ def parsersAdd(logger, parser):
     '''
 
     parser = cf.addParsers(parser)
+    parser = m1.addParsers(parser)
+
 
     return parser
 
@@ -109,6 +112,7 @@ def decodeParsers(logger, args):
     configCLA['logging'] = cf.decodeParser(args)
 
     allConfigs['config'] = configCLA
+    llConfigs['module1'] = m1.decodeParser(args)
 
     return allConfigs
 
